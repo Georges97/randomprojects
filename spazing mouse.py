@@ -5,19 +5,14 @@ def Move100():
         pyautogui.moveTo(100, 100, duration=0.05)
         
 
-def MovetoStart():
-        pyautogui.click(26, 1057)
-        pyautogui.click(40, 1024)
-        pyautogui.click(17, 943)
-        pyautogui.click(17, 943)
+
 
 
 
 pyautogui.position()
 
-#pyautogui.mouseInfo()
+pyautogui.mouseInfo()
 
 
 #print(p)
 #Move100()
-MovetoStart()
